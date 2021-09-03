@@ -1,93 +1,58 @@
 * {
+  padding: 0;
+  margin: 0;
   box-sizing: border-box;
-  padding: 0%;
-  margin: 0%;
 }
-section {
+header {
   width: 100%;
-  height: 95vh;
-  position: relative;
+  height: 100vh;
+  background: url("../assets/image/black-pattern-background-hd-1280x800-96392.jpeg");
+  clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
 
-ul {
-  list-style: none;
-  margin: 10px;
-  font-size: x-large;
+.logo {
+  color: white;
+  font-size: 70px;
+  padding-left: 30px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.menu {
+  margin-right: 20px;
 }
 nav {
+  width: 100%;
+  height: 70px;
   display: flex;
   justify-content: space-between;
-  padding: 10px 10%;
-  box-shadow: 8px 8px 16px wheat;
-  background-color: cadetblue;
-  color: rgb(14, 14, 14);
-  font-family: Georgia, "Times New Roman", Times, serif;
-  background-image: url(../assets/image/portfolio-pic.jpg);
-  width: 100%;
-  height: 15vh;
+  align-items: center;
 }
-.intro {
-  font-size: xx-large;
-  margin: 40px;
-  font-weight: bolder;
+.menu a:hover {
+  background: teal;
 }
-nav ul {
-  display: flex;
-  padding-right: 15%;
-}
-nav ul li a {
-  margin: 10px;
-  font-size: 100px;
-  font-weight: 100;
-}
-.text-container p:nth-child(1) {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 20px;
-}
-.text-container p:nth-child(2) {
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bold;
-  font-size: 40px;
-}
-.text-container p {
-  line-height: 0px;
-  margin: 45px 0px 25px;
-}
-.text-container {
-  position: absolute;
-  right: 20%;
-  top: 42%;
-}
-.text-container button {
-  width: 100px;
-  height: 40;
-  border-radius: 20px;
-  margin: 0px 10px;
-}
-button :active {
-  transform: scale(1, 1.1);
+.text {
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+  max-width: 450px;
 }
 
-img {
-  height: 600px;
-  box-shadow: 8px 8px 16px wheat;
+.text h1 {
+  font-size: 25px;
+  margin: 10px 0px;
 }
-
-.content {
-  width: 75%;
-  display: inline-block;
-  width: 92%;
-  display: inline-block;
-  margin-left: 1px;
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0c1c26;
-  color: #ffffff;
-}
-h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
+.c-btn {
+  border: none;
+  outline: none;
+  color: white;
+  background: teal;
+  padding: 10px;
+  margin-top: 20px;
 }
