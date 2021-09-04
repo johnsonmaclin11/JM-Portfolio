@@ -9,13 +9,11 @@ header {
   background: url("../assets/image/black-pattern-background-hd-1280x800-96392.jpeg");
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
-
 .logo {
   color: white;
   font-size: 70px;
   padding-left: 30px;
 }
-
 .menu a {
   color: white;
   text-decoration: none;
@@ -44,9 +42,13 @@ nav {
   max-width: 450px;
 }
 
+.text p {
+  font-size: 30px;
+  margin: 10px 10px;
+}
 .text h1 {
-  font-size: 25px;
-  margin: 10px 0px;
+  font-size: 50px;
+  margin: 10px 10px;
 }
 .c-btn {
   border: none;
@@ -55,4 +57,56 @@ nav {
   background: teal;
   padding: 10px;
   margin-top: 20px;
+}
+#about {
+  padding: 100px 50px;
+}
+.section-info {
+  font-family: bold;
+  text-align: center;
+}
+.section-info h1 {
+  font-size: 50px;
+}
+
+.section-info p {
+  font-size: 25px;
+  color: teal;
+}
+.about-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-left-col {
+  flex-basis: 40%;
+}
+.about-left-col img {
+  width: 100%;
+  padding: 50px;
+}
+#Contact{
+  padding: 100px 50px;
+  background: linear-gradient(160deg,teal 55%, white 0%);
+}
+.contact-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+h2{
+  margin-bottom:20px ;
+  color: aliceblue;
+}
+.contact-col form input{
+  margin-bottom:10px ;
+  width: 60%;
+  padding: 10px;
+}
+.contact-col form textarea{
+  width: 60%;
+  padding: 10px;
 }
