@@ -10,6 +10,7 @@ header {
   clip-path: polygon(50% 0%, 100% 0, 100% 75%, 50% 100%, 0% 75%, 0 0);
 }
 .logo {
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
   font-size: 70px;
   padding-left: 30px;
@@ -36,6 +37,7 @@ nav {
   background: teal;
 }
 .text {
+  font-family: Georgia, "Times New Roman", Times, serif;
   color: white;
   margin-top: 100px;
   margin-left: 100px;
@@ -67,11 +69,15 @@ nav {
 }
 .section-info h1 {
   font-size: 50px;
+  color: white;
 }
 
 .section-info p {
   font-size: 25px;
-  color: teal;
+  color: white;
+}
+#about {
+  background: linear-gradient(160deg, teal 40%, white 0%);
 }
 .about-row {
   display: flex;
@@ -86,27 +92,31 @@ nav {
   width: 100%;
   padding: 50px;
 }
-#Contact{
-  padding: 100px 50px;
-  background: linear-gradient(160deg,teal 55%, white 0%);
+p {
+  font-size: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.contact-col{
+#Contact {
+  padding: 100px 50px;
+  background: linear-gradient(160deg, teal 55%, white 0%);
+}
+.contact-col {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   text-align: center;
 }
-h2{
-  margin-bottom:20px ;
+h2 {
+  margin-bottom: 20px;
   color: aliceblue;
 }
-.contact-col form input{
-  margin-bottom:10px ;
+.contact-col form input {
+  margin-bottom: 10px;
   width: 60%;
   padding: 10px;
 }
-.contact-col form textarea{
+.contact-col form textarea {
   width: 60%;
   padding: 10px;
 }
